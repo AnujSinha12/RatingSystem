@@ -2,6 +2,7 @@
 ## Spring Boot WebServices
 
 Assumptions-
+
 1. To get/fetch passenger details based on userId.  url:http://localhost:8080/getUserJsonById/1
 	output:json
 2. To get/fetch driver details based on driverId. url:http://localhost:8080/getDriverJsonById/1
@@ -20,6 +21,7 @@ Assumptions-
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Approach-
+
 1. In any cab service rating is given by both passenger and driver to each other simultaneously.
 2. Scenario1: Passenger rate it's driver
    Rating given by passenger is added to the present total rating of the driver and it's total rides is incremented by 1, and driver's rating is calculated = total ratings/total rides.
@@ -32,7 +34,8 @@ Approach-
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 DB-
-1. PostgreSQL is used as a backend.
+
+1.PostgreSQL is used as a backend.
 
 2.Details:
 -->url=jdbc:postgresql://localhost:5432/db_rating_system
@@ -47,6 +50,7 @@ DB-
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Steps-
+
 1.The project is a spring boot application developed on intellijIdea and postgreSQL at it's backend.
 
 2.Load the project in intellijIdea.
