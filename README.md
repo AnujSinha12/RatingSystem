@@ -1,4 +1,4 @@
-# RatingSystem
+# RatingSystem Spring Boot WebServices
 
 Assumptions-
 1. To get/fetch passenger details based on userId.  url:http://localhost:8080/getUserJsonById/1
@@ -6,13 +6,13 @@ Assumptions-
 2. To get/fetch driver details based on driverId. url:http://localhost:8080/getDriverJsonById/1
 	output:json
 3. Post request to rate driver by passenger url:http://localhost:8080/setDriverRatingJsonById
-	e.g body={"driverId":4, "rating":5.0}
 	
+	e.g body={"driverId":4, "rating":5.0}
 	output:string
 	
 4. Post request to rate passenger by driver url:http://localhost:8080/setUserRatingJsonById
-	e.g body={"userId":1, "rating":4.0}
 	
+	e.g body={"userId":1, "rating":4.0}
 	output:string
 	
 
