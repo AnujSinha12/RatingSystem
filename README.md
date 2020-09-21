@@ -1,4 +1,5 @@
-# RatingSystem Spring Boot WebServices
+# RatingSystem 
+## Spring Boot WebServices
 
 Assumptions-
 1. To get/fetch passenger details based on userId.  url:http://localhost:8080/getUserJsonById/1
@@ -47,8 +48,11 @@ DB-
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Steps-
 1.The project is a spring boot application developed on intellijIdea and postgreSQL at it's backend.
+
 2.Load the project in intellijIdea.
+
 3.Setup the postgreSQL as described above.
+
 4.Open the postman to perform client side GET and POST request to get desired output.
 
 
