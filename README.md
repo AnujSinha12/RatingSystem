@@ -22,12 +22,12 @@ Assumptions-
 
 Approach-
 
-1. In any cab service rating is given by both passenger and driver to each other simultaneously.
-2. Scenario1: Passenger rate it's driver
-   Rating given by passenger is added to the present total rating of the driver and it's total rides is incremented by 1, and driver's rating is calculated = total ratings/total rides.
+1. In a cab service, rating is given by both passenger and driver to each other.
+2. Scenario1: Passenger rates it's driver,
+   The rating given by passenger is added to the total rating of the driver and it's total rides is incremented by 1, and driver's rating is calculated = total ratings/total rides.
 	
-3. Scenario2: Driver rate it's passenger
-   Rating given by driver is added to the present total rating of the passenger and it's total rides is incremented by 1, and passenger's rating is calculated = total ratings/total rides.
+3. Scenario2: Driver rates it's passenger,
+   The rating given by driver is added to the total rating of the passenger and it's total rides is incremented by 1, and passenger's rating is calculated = total ratings/total rides.
 	
 4. To view the passenger details with it's rating, a get request is fired to fetch user based on it's userId.
 5. To view the driver details with it's rating, a get request is fired to fetch driver based on it's driverId.
